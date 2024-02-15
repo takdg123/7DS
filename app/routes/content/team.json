@@ -1,0 +1,31 @@
+{
+	"members":[
+		{
+			"name": "Prof. Hyung Mok Lee",
+			"title": "Principal Investigator",
+			"major": "Stellar Dynamics, Galaxy Evolution, Gravitational Wave Astronomy",
+			"affiliation": "Seoul National University",
+			"email":"hmlee@snu.ac.kr",
+			"webpage":"https://sites.google.com/view/hyung-mok-lee/",
+			"imgName": "LeeHM.jpeg"
+		},
+		{
+			"name": "Prof. Myungshin Im",
+			"title": "Co-Principal Investigator",
+			"major": "Galaxy Evolution, Observational Cosmology",
+			"affiliation": "Seoul National University",
+			"email": "mim@astro.snu.ac.kr",
+			"webpage":"http://astro.snu.ac.kr/~mim",
+			"imgName": "ImMS.jpeg"
+		},
+		{
+			"name": "Dr. Donggeun Tak",
+			"title": "Research Associate",
+			"major": "Multiwavelength / multimessenger science, transient astrophysics",
+			"affiliation": "Seoul National University",
+			"email":"donggeun.tak@gmail.com",
+			"orcid": "https://orcid.org/0000-0002-9852-2469",
+			"imgName": "TakDG.jpeg"
+		}
+	]
+}
