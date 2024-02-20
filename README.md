@@ -1,1 +1,1 @@
-# kilonova
+# 7DS webpage
