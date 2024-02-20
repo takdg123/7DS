@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizontal Scrolling with Vertical Scroll</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+      overflow-x: scroll;
+      overflow-y: scroll; /* Allow vertical scrollbar */
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .word {
+      display: inline-block;
+      font-size: 36px;
+      margin-right: 100px;
+      transition: transform 0.5s ease;
+      position: absolute;
+      top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="word">Campus</div>
+    <div class="word">Example</div>
+    <div class="word">Scroll</div>
+    <div class="word">Effect</div>
+    <div class="word">Horizontal</div>
+    <div class="word">Movement</div>
+    <div class="word">HTML</div>
+  </div>
+  <div style="background-color: black; height: 4000px"></div>
+
+  <script>
+    window.addEventListener("scroll", function () {
+      let scrollPosition = window.scrollY; // Use vertical scroll position
+      let words = document.querySelectorAll(".word");
+
+      words.forEach(function (word) {
+        let wordPosition = word.getBoundingClientRect().left;
+        let distanceFromCenter = Math.abs(wordPosition - window.innerWidth / 2);
+        let moveAmount = -distanceFromCenter / 10; // Adjust movement speed
+
+        word.style.transform = `translateX(${moveAmount}px)`;
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -2,8 +2,8 @@ import { Footer } from 'flowbite-react';
 
 const FooterBar = () => {
   return (
-  <footer style={{backgroundColor:"black",}}>
-    <div className="mx-auto w-full" style={{maxWidth: "1440px", margin:"0 auto", padding: "0 10vw 0 10vw"}}>
+  <footer style={{backgroundColor:"black", zIndex:1000, position: "relative"}}>
+    <div className="mx-auto w-full main-container" style={{maxWidth: "1440px", margin:"0 auto", padding: "0 10vw 0 10vw"}}>
       <div className="grid grid-cols-2 gap-8 py-6 lg:py-8 md:grid-cols-4">
         <div>
           <h2 className="text-sm font-semibold text-gray-900 uppercase text-white">Contact</h2>

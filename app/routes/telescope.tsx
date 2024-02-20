@@ -66,11 +66,12 @@ const Index=() => {
         <ul>
           <li className="p-2 active"><a href="#">Overview</a></li>
           <li className="p-2"><a href="/location">Location</a></li>
-          <li className="p-2"><a href="/specification">Specification</a></li>
+          <li className="p-2"><a href="/instrument">Instrument</a></li>
+          <li className="p-2"><a href="/server">Computational<br/>Resorces</a></li>
         </ul>
       </div>:null}
 
-      <div className="mx-auto w-full" style={{maxWidth: "1440px", margin:"0 auto", padding: "50px 10vw 50px 10vw", background: "#fff", color:"#264256" }}>
+      <div className="mx-auto w-full main-container">
         <div className="p-10 max-w-screen-lg mx-auto">
           <div className="justify-between mb-5"  style={{maxWidth: "1200px", margin: "0 auto"}}>
             <p className="mt-4 text-sm leading-7 text-gray-500 font-regular" style={{textAlign:"center"}}>

@@ -1,15 +1,20 @@
-export const mainText = 'In recent times, wide-field imaging surveys focusing \
-  on time-series observations have yielded remarkable insights into the \
-  dynamic universe. However, these observations have been restricted to \
-  broad-band imaging in a limited number of filters due to observational \
-  constraints. Recognizing the wealth of information contained in time-series\
-  spectra of astronomical objects, we aim to overcome this limitation.\
-  Our solution involves the development of an innovative multiple telescope \
-  system known as the 7-Dimensional Telescope (7DT). This advanced system \
-  is designed to conduct wide-field integral-field-unit-type time-series \
-  spectroscopy for millions of objects. The primary objective is to carry \
-  out a comprehensive survey of the southern sky spanning an area of 10,000 \
-  square degrees, termed the 7-Dimensional Sky Survey (7DS).'
+export const mainText1 = 'A research team from the Department of Physics & \
+  Astronomy at Seoul National has revealed first-light images of the 7-Dimensional \
+  Telescope (7DT). The released images show colorful views of several celestial \
+  bodies and demonstrate scientific capabilities of 7DT'
+
+export const mainText2 = 'Through meticulous observations and advanced analysis, \
+  our goal is to shed light on unraveling mysterious objects in the universe such \
+  as gravitational-wave sources, supermassive black holes, new transient sources, \
+  peculiar stellar phenomena, and small bodies of the solar system.'
+
+export const mainText3 = 'Leveraging both wide-area and high-cadence observation \
+  strategies, the 7 Dimensional Survey (7DS) delves into previously unexplored \
+  cosmic realms by dedicated working groups.'
+
+export const mainText4 = 'The 7-Dimensional Telescope (7DT), a pioneering \
+  multi-telescope system, comprises 20 individual telescopes, each with a 50cm \
+  diameter, strategically positioned at Chile.'
 
 export const overviewText = 'The 7-Dimensional Telescope(7DT) is a multiple \
   telescope system for observing the Universe in an unprecedented way, which \
